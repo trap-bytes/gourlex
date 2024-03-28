@@ -19,10 +19,21 @@ It can be helpful during web application assessments to uncover additional targe
 ```
 go install github.com/trap-bytes/gourlex@latest
 ```
+##### Docker Image Setup
+```
+docker build -t gourlex .
+```
+
+
 ## Usage:
 
 ```
 gourlex -h
+```
+##### Run With Docker
+
+```
+docker run gourlex -h
 ```
 
 This will display help for the tool. Here are all the arguments it supports.
